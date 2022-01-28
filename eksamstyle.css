@@ -44,12 +44,29 @@ a:active { background: #ffca28; }
 
 #logo{
     position: absolute;
-    top: 12px;
+    top: 10px;
     right: 20px;
 }
 #logo img{
     width: 50px;
     height: 50px;
+}
+
+#menuArea {
+    cursor: pointer;
+    width: 11%;
+    color: #ff00ea;
+    text-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #0fa,
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px #0fa,
+            0 0 151px #0fa;
+    font-size: 20px;
+    transition: box-shadow 0.5s ease-in-out;
 }
 
 .navicon {
@@ -114,7 +131,17 @@ header h1{
     opacity: 1;
     margin-left: 0%;
     margin-top: 1%;
-    color: #ffbe00;
+    color: #ff00ea;
+    text-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #0fa,
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px #0fa,
+            0 0 151px #0fa;
+    font-size: 40px;
 }
 
 header{

@@ -24,6 +24,9 @@ $kask->execute();
 include ('header.php');
 ?>
 <body>
+<div id="logo">
+    <img src="style/eksam23.png" alt="Logo">
+</div>
 <link rel="stylesheet" type="text/css" href="eksamstyle.css" />
 <h1>Tänava sõidueksam</h1>
 <table id="tanav">

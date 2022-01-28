@@ -13,6 +13,9 @@ $kask->execute();
 include ('header.php');
 ?>
     <body>
+    <div id="logo">
+        <img src="style/eksam23.png" alt="Logo">
+    </div>
     <link rel="stylesheet" type="text/css" href="eksamstyle.css" />
     <h1 id="tunistus">Tunnistus</h1>
     <table id="tun">
@@ -29,6 +32,7 @@ lisaKaup($_REQUEST["nimetus"], $_REQUEST["kaubagrupi_id"], $_REQUEST["hind"]);
 header("Location: kaubahaldus.php");
 exit();
 }*/
+
 $vormis = "Vormistatud";
 $vormista = "Vormistamata";
 $nupp = "<input type='submit' name='vormi' value='Vormistada'/>";

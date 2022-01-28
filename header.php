@@ -6,6 +6,24 @@
     <link rel="stylesheet" type="text/css" href="eksamstyle.css" />
 </head>
 <body>
+<div id="menuArea">
+    <a href="reg.php">Loo uus kasutaja</a>
+    <br>
+    <?php
+    if(isset($_SESSION['knimi'])){
+        ?>
+        <a href="logout.php">Logi välja</a>
+        <h1>Tere, <?="$_SESSION[knimi]"?></h1>
+        <?php
+    }
+    else {
+        ?>
+        <a href="logineksam.php">Logi sisse</a>
+        <br>
+        <?php
+    }
+    ?>
+</div>
 <header>
     <h1>Jalgrattaeksam</h1>
 </header>
